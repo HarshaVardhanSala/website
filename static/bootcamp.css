@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "neuemachina";
+    src: url(static\fonts\NeueMachina-Regular.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#parent{
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 450px;
+}
+#data{
+    width: 50%;
+    height: 100%;
+    margin-left: 5%; 
+    font-size: 25px;
+}
+#money{
+    color: aquamarine;
+}
+.button{
+    border-radius: 7px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #353535;
+    color: white;
+    width: 250px;
+    height: 40px;
+}
+#buttons{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #24cfa6;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.749);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'neuemachine';
+    
+
+}
+#video{
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: aquamarine;
+    margin-right: 3%;
+
+}
+#price{
+    font-size: 25px;
+}
+#second_data{
+    color: white;
+    margin-left: 70px;
+}
+#p1{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+#p2{
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+#third_data{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.butt{
+    border-radius: 25px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    background-color: #353535;
+    color: white;
+    width: 450px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    font-family: "neuemachina";
+    font-weight: bold;
+}
+#fourth_data{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.four{
+    font-size: 175px;
+    font-weight: bold;
+
+}
+#day{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#every{
+    font-size: 80px;
+    font-weight: bold;
+}
+#fifth_data{
+    margin-top: 300px;
+    margin-left: 70px;
+}
+#dominate{
+    font-size: 175px;
+    font-family: "neuemachina";
+    font-weight: bold;
+
+}
+#to{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.338);
+}

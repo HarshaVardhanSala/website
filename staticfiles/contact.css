@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#courses .course{
+    margin: 50px;
+}
+#courses .course .imgblock{
+    width: 400px;
+    background-color: #181717;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    
+}
+#courses .course .imgblock img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+#courses .course .imgblock p{
+    color: white;
+    margin-left: 15px;
+    font-family: 'neuemachina';
+    padding-bottom: 15px;
+
+}
+#courses .course a{
+    color: black;
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: #24cfa6;
+    padding: 7px 0px;
+    border-radius: 10px;
+    font-family: 'neuemachina';
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block paragraph %}
+<link rel="stylesheet" href="{% static 'contact.css' %}">
+<div id="courses">
+    <div class="course">
+        <div class="imgblock">
+            <img src="{% static 'image\firstimage.webp' %}" alt="">
+            <p>Web Development</p>
+        </div>
+        <a href="">ViewDetails</a>
+    </div>
+    <div class="course">
+        <div class="imgblock">
+            <img src="{% static 'image\second.webp' %}" alt="">
+            <p>BackEnd</p>
+        </div>
+        <a href="">ViewDetails</a>
+    </div>
+    <div class="course">
+        <div class="imgblock">
+            <img src="{% static 'image\third.webp' %}" alt="">
+            <p>Aptitude & Reasoning</p>
+        </div>
+        <a href="">ViewDetails</a>  
+    </div>
+    <div class="course">
+        <div class="imgblock">
+            <img src="{% static 'image\forth.webp' %}" alt="">
+            <p>Java & DSA</p>
+        </div>
+        <a href="">ViewDetails</a>
+    </div>
+    <div class="course">
+        <div class="imgblock">
+            <img src="{% static 'image\fifth.webp' %}" alt="">
+            <p>Three.js Domination</p>
+        </div>
+        <a href="">ViewDetails</a>
+    </div>
+</div>
+{% endblock paragraph %}

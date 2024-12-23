@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'neuemachina';
+    src: url(fonts/NeueMachina-Regular.otf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-image: url(../static/image/background.png);
+    background-size: cover;  
+    width: 100vw;
+}
+#para{
+    text-align: center;
+    width: 100vw;
+    height: 300px;
+    padding-top: 80px; 
+    color: white;
+    font-family: 'neuemachina';
+}
+.text-highlight{
+    color: green;
+}
+.italic{
+    font-weight: italic;
+}
+#paragraph{
+    font-size: 90px;
+    line-height: 80px;
+    font-weight: 100px;
+}
+#button{
+    text-decoration: none;
+    font-size: 30px;
+    background-color:aquamarine;
+    color: black;
+    border-radius: 10px;
+}
+#para2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+}
+#block_two{
+    margin-left: 120px;
+    
+}
+p{
+    font-size: 30px;
+}
+#top{
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 55px;
+    font-weight: 100px;
+    
+}
+#text-highlight{
+    color: aquamarine;
+}
+#text-highlight1{
+    color: white;
+}
+#youtube{
+    width: 100vw;
+    height: 150px;
+    text-align: center;
+    margin-top: 120px;
+}
+#youtubecontent{
+   border: none;
+   border-radius: 30px;
+
+}
+#explore_button{
+    width: 100vw;
+    height: 80px;
+    text-align: center;
+    padding-top: 250px;
+
+}
+#courseoffered{
+    width: 100vw;
+    height: 1000px;
+}
+#first{
+    width: 250px;
+    height: 800px;
+}
+#courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#courses .course{
+    margin: 50px;
+}
+#courses .course .imgblock{
+    width: 400px;
+    background-color: #181717;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    
+}
+#courses .course .imgblock img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+#courses .course .imgblock p{
+    color: white;
+    margin-left: 15px;
+    font-family: 'neuemachina';
+    padding-bottom: 15px;
+
+}
+#courses .course a{
+    color: black;
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: #24cfa6;
+    padding: 7px 0px;
+    border-radius: 10px;
+    font-family: 'neuemachina';
+    font-weight: bold;
+}
+
+
+

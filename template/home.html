@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block paragraph %}
+<link rel="stylesheet" href="{% static 'home.css' %}">
+<div id="para">
+    <h1 id="paragraph">
+        <span>
+          We only <span class="text-highlight">
+            teach
+          </span> <br>
+          what we are really <br>
+          really <span class="italic">good</span> at. <br> 
+        </span>
+    </h1><br><br>
+    <a href="" id="button">
+        Check Courses-Make an Impact
+    </a>
+</div>
+<div id="para2"> 
+    <div id="block_one">
+        <h1>25+</h1><p>Students taught</p>
+    </div>
+    <div id="block_two">
+        <h1>20+</h1><p>Instructors</p>
+    </div>
+    <div id="block_two">
+        <h1>431K+</h1><p>Youtubesubs.</p>
+    </div>
+</div>
+<div id="top">
+    <span id="text-highlight1">
+      we do whatever it takes to help you
+      <br>
+      <span id="text-highlight">understand the concepts.</span>
+    </span>
+</div>
+<div id="youtube">
+    <iframe src="https://www.youtube.com/embed/60SRAWmMXyc" width="800px" height="400px" id="youtubecontent"></iframe>
+</div>
+<div id="explore_button">
+    <a href="">
+      Explore free learning
+    </a>
+</div>
+<div id="courseoffered">
+    <h1>
+      <span>Courses Offered.</span>
+    </h1>
+    <div id="courses">
+        <div class="course">
+            <div class="imgblock">
+                <img src="{% static 'image\firstimage.webp' %}" alt="">
+                <p>Web Development</p>
+            </div>
+            <a href="">ViewDetails</a>
+        </div>
+        <div class="course">
+            <div class="imgblock">
+                <img src="{% static 'image\second.webp' %}" alt="">
+                <p>BackEnd</p>
+            </div>
+            <a href="">ViewDetails</a>
+        </div>
+        <div class="course">
+            <div class="imgblock">
+                <img src="{% static 'image\third.webp' %}" alt="">
+                <p>Aptitude & Reasoning</p>
+            </div>
+            <a href="">ViewDetails</a>
+        </div>
+        <div class="course">
+            <div class="imgblock">
+                <img src="{% static 'image\forth.webp' %}" alt="">
+                <p>Java & DSA</p>
+            </div>
+            <a href="">ViewDetails</a>
+        </div>
+        <div class="course">
+            <div class="imgblock">
+                <img src="{% static 'image\fifth.webp' %}" alt="">
+                <p>Three.js Domination</p>
+            </div>
+            <a href="">ViewDetails</a>
+        </div>
+    </div>
+</div>
+{% endblock paragraph %}
